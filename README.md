@@ -1,13 +1,18 @@
 # kafka-project
 
-https://www.baeldung.com/ops/kafka-docker-setup
+# Spin up Kafka and Zookeper
+```shell
 docker-compose up -d
 
+# as there was an issue with the dockerized application I had to run locally
+python3 main.py
+```
 
 ## Potential improvements
 * add unit tests for functions
   * convert timezone function
-* further isolation of code logic
+  * ...
+* further isolation of functions / code logic
 * handle potential exceptions
 * docstrings for functions to increase maintainability for other developers
 * add types for functions to ensure typesafety
